@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://image.flaticon.com/icons/svg/759/759823.svg">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <title>Leonardo Costa</title>
+</head>
+<style>
+  @keyframes pulsing-letters {
+    from {
+      transform: scale(1);
+    }
+
+    to {
+      transform: scale(1.1);
+      color: #1CBBD3;
+    }
+  }
+
+  body {
+    font-family: 'Raleway', sans-serif;
+    background: #2d3436;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  .container {
+    height: 100%;
+    display: grid;
+    place-items: center;
+  }
+
+  .coming-soon {
+    color: #fff;
+    animation: pulsing-letters 1.5s infinite alternate;
+  }
+</style>
+
+<body>
+  <div class="container">
+    <h1 class="coming-soon">Coming soon...</h1>
+  </div>
+</body>
+
+</html>
